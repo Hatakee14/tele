@@ -1,0 +1,25 @@
+{
+  "name": "qr-code-scanner-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for scanning QR codes and matching data with a Google Spreadsheet",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "google-spreadsheet": "^3.3.0",
+    "html5-qrcode": "^2.3.8",
+    "img-to-url": "^1.7.0",
+    "jimp": "^0.16.1",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "qrcode": "^1.5.4",
+    "qrcode-reader": "^1.0.4",
+    "telegraf": "^4.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0"
+  }
+}
